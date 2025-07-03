@@ -7,7 +7,7 @@ const int releaseButtonPin = 3;
 const int servoPin = 9;
 
 const int openPos = 0;
-const int closedPos = 180;
+const int closedPos = 90;
 
 void setup() {
   prostheticServo.attach(servoPin);
